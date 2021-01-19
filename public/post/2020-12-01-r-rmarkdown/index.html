@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme=""><head>
-    <title> Jane Doe | Posts </title>
+    <title> Jane Doe | Hello R Markdown </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.80.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -29,10 +29,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="https://example.com/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://example.com/favicons/favicon-16x16.png">
 
-    <link rel="canonical" href="https://example.com/post/">
+    <link rel="canonical" href="https://example.com/post/2020-12-01-r-rmarkdown/">
 
     
-    <link rel="alternate" type="application/rss+xml" href="https://example.com/post/index.xml" title="Website of Jane Doe" />
     
     
     
@@ -53,8 +52,8 @@
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://example.com/105"/>
 
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="Call me Jane"/>
+<meta name="twitter:title" content="Hello R Markdown"/>
+<meta name="twitter:description" content="R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents."/>
 
 </head>
 <body><div class="sidebar animated fadeInDown ">
@@ -115,7 +114,7 @@
                    title="">Home</a></li>
         
             
-            <li><a class="current"
+            <li><a 
                    href="/post/"
                         
                    title="">Posts</a></li>
@@ -145,80 +144,78 @@
 
     <div class="autopagerize_page_element">
         <div class="content">
-    <div class="archive  animated fadeInDown ">
-        <ul class="list-with-title">
+    <div class="post  animated fadeInDown ">
+        <div class="post-content">
             
-                <div class="listing-title">2020</div>
+            <div class="post-title">
+                <h3>Hello R Markdown</h3>
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="https://example.com/post/2020-12-01-r-rmarkdown/" title="Hello R Markdown">Hello R Markdown</a>
-                                <div class="post-time"><span class="date"> Dec 1 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
+                    <div class="info">
+                        <em class="fas fa-calendar-day"></em>
+                        <span class="date"> Tue, Dec 1, 2020 
+                                           </span>
+                        <em class="fas fa-stopwatch"></em>
+                        <span class="reading-time">One-minute read</span>
+                    </div>
                 
+            </div>
+
             
-                <div class="listing-title">2019</div>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="https://example.com/post/markdown-syntax/" title="Markdown Syntax Guide">Markdown Syntax Guide</a>
-                                <div class="post-time"><span class="date"> Mar 11 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="https://example.com/post/rich-content/" title="Rich Content">Rich Content</a>
-                                <div class="post-time"><span class="date"> Mar 10 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="https://example.com/post/placeholder-text/" title="Placeholder Text">Placeholder Text</a>
-                                <div class="post-time"><span class="date"> Mar 9 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="https://example.com/post/math-typesetting/" title="Math Typesetting">Math Typesetting</a>
-                                <div class="post-time"><span class="date"> Mar 8 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="https://example.com/post/emoji-support/" title="Emoji Support">Emoji Support</a>
-                                <div class="post-time"><span class="date"> Mar 5 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="https://example.com/post/image-test/" title="Guide to Thumbnails in Hugo">Guide to Thumbnails in Hugo</a>
-                                <div class="post-time"><span class="date"> Mar 4 
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-        </ul>
+<script src="https://example.com/post/2020-12-01-r-rmarkdown/index.en_files/header-attrs/header-attrs.js"></script>
+
+
+<div id="r-markdown" class="section level1">
+<h1>R Markdown</h1>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>You can embed an R code chunk like this:</p>
+<pre class="r"><code>summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932</code></pre>
+</div>
+<div id="including-plots" class="section level1">
+<h1>Including Plots</h1>
+<p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
+<pre class="r"><code>par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
+  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
+  init.angle = -50, border = NA
+)</code></pre>
+<div class="figure"><span id="fig:pie"></span>
+<img src="https://example.com/post/2020-12-01-r-rmarkdown/index.en_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+<p class="caption">
+Figure 1: A fancy pie chart.
+</p>
+</div>
+</div>
+</div>
+        <div class="post-footer">
+            <div class="info">
+                <span class="separator"><a class="category" href="/categories/r/">R</a></span>
+
+                <span class="separator"><a class="tag" href="/tags/r-markdown/">R Markdown</a><a class="tag" href="/tags/plot/">plot</a><a class="tag" href="/tags/regression/">regression</a></span>
+
+            </div>
+        </div>
+
+        
     </div>
+
 
         </div>
     </div>
