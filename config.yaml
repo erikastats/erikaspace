@@ -1,7 +1,7 @@
-baseURL: https://example.com
+baseURL: https://erikaspace.netlify.app/
 languageCode: en
 DefaultContentLanguage: en
-title: Website of Jane Doe
+title: Blog of Érika S.M.B.
 theme: anatole
 summarylength: 10
 enableEmoji: yes
@@ -10,34 +10,34 @@ pygmentsUseClasses: yes
 pygmentsCodeFences: yes
 pygmentsCodefencesGuessSyntax: yes
 params:
-  author: Jane Doe
+  author: Érika S.M.B.
   customCss: []
   customJs: []
-  description: Call me Jane
+  description: Welcome to my amazing Data Analytic World
   doNotLoadAnimations: no
-  favicon: favicons/
+  favicon: favicons/eu2.ico
   images: images/site-feature-image.png
   keywords: ''
   mainSections: post
   math:
     enable: no
     use: katex
-  profilePicture: images/profile.jpg
+  profilePicture: images/eu2.jpeg
   simpleAnalytics: {}
   socialIcons:
     - icon: fab fa-linkedin
       title: Linkedin
-      url: https://de.linkedin.com/
+      url: https://www.linkedin.com/in/erika-soares-machado-08951214a/
     - icon: fab fa-github
       title: GitHub
-      url: https://github.com/lxndrblz/anatole/
+      url: https://github.com/erikastats
     - icon: fab fa-instagram
       title: instagram
-      url: https://www.instagram.com/
+      url: https://www.instagram.com/erika_abonita/?hl=pt-br
     - icon: fas fa-envelope
       title: e-mail
-      url: mailto:mail@alexbilz.com
-  title: I'm Jane Doe
+      url: mailto:erikasoaresm@hotmail.com
+  title: I'm Erika
 menu:
   main:
     - identifier: home

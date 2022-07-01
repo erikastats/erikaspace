@@ -1,0 +1,23 @@
+---
+title: Monte Carlo Simulation
+author: Érika S.M.B.
+date: '2021-04-20'
+slug: []
+categories:
+  - R
+tags:
+  - Statistics
+  - Teory
+  - Computational
+Description: ''
+Tags: []
+Categories: []
+DisableComments: no
+---
+
+# Introduction
+
+When I was doing the subject Computational Statistics 2 in the $4^{th}$ year of my graduation, I wasn't expecting that Statistical Simulation would be so important in the analytical world. Suddenly, I could see that almost all the advanced analysis used it to complement and reinforce the results.   
+
+That said, this post will contain some teory and aplication of Monte Carlo Simulation. Let's enjoy it!
+
